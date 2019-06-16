@@ -21,6 +21,8 @@
   <script src="https://kit.fontawesome.com/a28ae37e43.js"></script>
   <!-- Devicon 2.0 -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- Detect Mobile Browser -->
+  <script src="js/detectmobilebrowser.js"></script>
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -225,11 +227,15 @@
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
+  <!-- Check for Mobile -->
   <script>
-    if(!window.is_mobile){
-    $stellar();
+    if(jQuery.browser.mobile){
+      stellarActivated = false;
     }
-  </script>
+    else{
+      stellarActivated = true;
+    }
+    </script>
  
 </body>
 
