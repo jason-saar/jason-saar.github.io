@@ -1,0 +1,11 @@
+<meta> to establish char-set="utf-8"
+Title: Create an Account
+<div class="Nav"> Use <ul> and <li> include <a> pointing to index and create an account
+Header: Create an Account 
+Paragraph: Describe Function of Website and <strong> Required Information using <block quote> and <em> first name, last name, email, image preferences
+Use an <hr> to seperate forms from above information
+<div class="form-container"> Use <input> for required information, dispay <img> of preferences
+
+Footer: Author of Page
+
+
