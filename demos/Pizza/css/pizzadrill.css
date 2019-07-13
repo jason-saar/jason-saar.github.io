@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(255, 220, 144);
+}
+
+h1  {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu {
+    flex: 1 130px;
+    border: 1px solid lightcyan;
+    border-radius: 25px;
+    width: 196px;
+    height: 250px;
+    margin: 1px 1px;
+}
+
+#menuBG {
+	width: 600px;
+	margin: 10px auto;
+}
+
+#frmMenu {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+#totalPrice {
+	width: 200px;
+	margin: auto;
+}
+
+/*.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}*/
+
+
+#cart {
+    opacity: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: stretch;
+	margin: 0 0 0 100px;
+	width: 400px;
+}
+
+#showText1, #showText2 {
+    width: 50%;
+	margin: auto;
+    float: left;
+}
+
+#controls {
+    margin: auto;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(250, 104, 19);
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px (255,255,255.8);
+    margin: 5px 5px 0 0;
+    float: left;
+	width: 100px;
+	height: 40px;
+}
+
+.btn:hover {
+    background-color: rgb(173, 81, 6);
+
+}
+
+.btn p {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+#cart .title {
+    width: 200px;
+    height: 40px;
+}
