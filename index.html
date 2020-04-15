@@ -21,8 +21,7 @@
   <script src="https://kit.fontawesome.com/a28ae37e43.js"></script>
   <!-- Devicon 2.0 -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <!-- Detect Mobile Browser -->
-  <script src="js/detectmobilebrowser.js"></script>
+
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -216,7 +215,8 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- 
+  <script src="vendor/jquery/jquery.js"></script>
+
   <!-- Bootstrap Bundle -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -226,13 +226,17 @@
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
+    <!-- Detect Mobile Browser -->
+  <script src="js/detectmobilebrowser.js"></script>
   <!-- Check for Mobile -->
   <script>
-    if(jQuery.browser.mobile){
+    if(isMobile()){
       stellarActivated = false;
+	  console.log("mobile");
     }
     else{
       stellarActivated = true;
+	  console.log("not mobile");
     }
     </script>
  
